@@ -39,8 +39,6 @@ body{
 .container__titulo{
     font-size: 1.75rem;
     font-weight: bold;
-    /* padding: 125px 0px 1px 54px; */
-    /* text-align: center; */
 }
 
 .container__imagem{
@@ -54,9 +52,7 @@ body{
     margin: 0% 5%;
     color: var(--branco-principal);
     display: block;
-    /* width: 32rem; */
     text-decoration: none;
-    /* text-align: center; */
     margin-bottom: 16px;
 }
 
@@ -88,8 +84,6 @@ body{
 }
 
 .descricao__texto{
-    /* font-weight: 400;
-    font-size: 1rem; */
     color: var(--cinza-secundario);
 }
 
@@ -98,10 +92,6 @@ body{
     margin: 0% 1%;
     margin-top: 18px;
 }
-
-/* .container__secundario{ */
-    /* padding: 10px; */
-/* } */
 
 .descricao__texto__terceiro{
     color: var(--branco-terceiro-bloco);
@@ -132,7 +122,6 @@ body{
 }
 
 .lista__item{
-    /* font-size: 2rem; */
     color: var(--branco-principal);
 }
 
@@ -145,7 +134,6 @@ body{
 }
 
 .rodape__lista{
-    /* color: var(--branco-principal); */
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -170,4 +158,44 @@ body{
 
 .rodape__texto{
     margin: 24px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .principal{
+        margin-top: 5%;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2% 2%;
+    }
+
+    .secundario{
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .terceira{
+        margin-top: 10%;
+    }
+
+    .dispositivos__lista{
+        display: block;
+    }
+
+    .rodape__lista{
+        display: block;
+    }
+    
 }
